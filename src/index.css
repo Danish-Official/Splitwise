@@ -1,0 +1,278 @@
+body {
+  background-color: #1c1c1d;
+  color: #dfe0e4;
+  font-family: "Patrick Hand", cursive;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6,
+    0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 100;
+  text-align: center;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6,
+    0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+
+h3 {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  font-weight: 100;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6,
+    0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+code {
+  font-family: "Great Vibes", cursive;
+}
+#nameField {
+  outline: none;
+  border: 2px solid white;
+  background: none;
+  height: 26px;
+  width: 229px;
+  font-size: 1.2rem;
+  resize: none;
+  text-align: center;
+  overflow: hidden;
+  color: white;
+  margin-top: 15px;
+  padding: 5px;
+}
+#nameField::placeholder {
+  padding: 2px;
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #004068 0%,
+    #89d8fd 51%,
+    #004068 100%
+  );
+}
+.btn-grad {
+  margin: 35px auto;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+#nameList {
+  color: white;
+  font-size: 30px;
+}
+
+details {
+  margin: 50px;
+  color: white;
+}
+.InstructionSet {
+  font-size: 25px;
+  text-align: "left";
+}
+.Field {
+  display: flex;
+}
+.form {
+  position: relative;
+  top: 40px;
+  width: 30%;
+}
+.joker{
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  font-weight: 100;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6,
+  0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+.Graph {
+  width: 70%;
+}
+
+.table {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  background-color: transparent;
+  -webkit-box-shadow: 0 0 17px 3px #ffff01, 0 0 4px 2px #ffff01;
+  box-shadow: 0 0 17px 3px #ffff01, 0 0 4px 2px #ffff01;
+}
+.btn-add {
+  background-image: linear-gradient(
+    to right,
+    #ffff01 0%,
+    #333333 51%,
+    #ffff01 100%
+  );
+}
+.btn-add {
+  width: 60px;
+  height: 40px;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-add:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+#table1 th,
+td {
+  padding: 15px;
+}
+
+select {
+  background: none;
+  color: white;
+  font-size: 15px;
+  padding: 7px;
+  outline: none;
+  border: none;
+}
+#table1 input {
+  width: 80px;
+  background: none;
+  color: white;
+  font-size: 15px;
+  padding: 7px;
+  outline: none;
+  border: none;
+}
+#table1 option {
+  color: black;
+  font-size: 18px;
+}
+#table2 {
+  font-size: 18px;
+  color: white;
+}
+#table2 th,
+td {
+  padding: 20px;
+}
+/**************************************************************/
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  #nameField {
+    height: 15px;
+    width: 150px;
+    font-size: 15px;
+  }
+  #nameField::placeholder {
+    font-size: 15px;
+  }
+  .btn-grad {
+    margin: 17px auto;
+    font-size: 9px;
+    padding: 6px 6px;
+    border-radius: 5px;
+  }
+  #nameList {
+    font-size: 15px;
+  }
+  details {
+    margin: 25px;
+  }
+  .InstructionSet {
+    font-size: 15px;
+    text-align: left;
+  }
+  .Field {
+    display: flex;
+    flex-direction: column;
+  }
+  .form {
+    position: relative;
+    top: 40px;
+    width: 200px;
+  }
+  .joker{
+    font-size: 20px;
+    margin-top: 30px;
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6,
+    0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+  }
+  .Graph {
+    height: 275px;
+    width: 314px;
+  }
+
+  .btn-add {
+    width: 35px;
+    height: 25px;
+    font-size: 8px;
+    padding: 0px;
+    border-radius: 5px;
+  }
+  
+  #table1 th,
+  td {
+    font-size: 12px;
+    padding: 0px;
+    margin-right: 2px;
+  }
+  
+  select {
+    font-size: 10px;
+    padding: 0px;
+  }
+  #table1 input {
+    width: 35px;
+    font-size: 12px;
+    padding: 1px;
+  }
+  #table1 option {
+    font-size: 10px;
+  }
+  #table2 {
+    font-size: 10px;
+  }
+  #table2 th,
+  td {
+    font-size: 12px;
+    padding: 0px;
+  }
+}
